@@ -1,6 +1,5 @@
 # notebot
 
-# NoteBot
 
 NoteBot is an advanced text editor application integrated with GPT-2, offering an interactive experience with an ASCII AI character. NoteBot can process natural language commands and assist with coding, note-taking, and text processing tasks.
 
