@@ -1,5 +1,6 @@
 # notebot
 
+![NoteBot_Logo](https://github.com/gauthamarcot/notebot/assets/43777597/a9121bbc-016e-4d0c-a1c3-95657fbd5f44)
 
 NoteBot is an advanced text editor application integrated with GPT-2, offering an interactive experience with an ASCII AI character. NoteBot can process natural language commands and assist with coding, note-taking, and text processing tasks.
 
