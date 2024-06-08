@@ -1,63 +1,89 @@
-# notebot
+# CodeMind IDE
 
-![NoteBot_Logo](https://github.com/gauthamarcot/notebot/assets/43777597/a9121bbc-016e-4d0c-a1c3-95657fbd5f44)
+![CodeMind_Logo](https://github.com/gauthamarcot/notebot/assets/43777597/a9121bbc-016e-4d0c-a1c3-95657fbd5f44)
 
-NoteBot is an advanced text editor application integrated with GPT-2, offering an interactive experience with an ASCII AI character. NoteBot can process natural language commands and assist with coding, note-taking, and text processing tasks.
+CodeMind IDE is a powerful integrated development environment designed to enhance your coding productivity. It features real-time code watching, project-specific AI suggestions, intra-team chat, and command invocation from the text area.
 
 ## Features
 
-- **Code Editor Interface**: A user-friendly text area for writing and editing code or notes.
-- **Interactive ASCII AI Character**: An AI character that interacts with users through ASCII art, changing its appearance based on interactions.
-- **Command Parsing**: Recognizes and processes commands from the text area.
-- **GPT-2 Integration**: Uses GPT-2 to provide responses and process commands.
-- **Command Handling**: Supports various commands such as `/sort`, `/reverse`, `/uppercase`, and `/count`.
+- **Code Watcher**: Always watches the code users type and provides real-time feedback.
+- **Interactive ASCII AI Figure**: An AI character that interacts with users, providing suggestions in an ASCII format.
+- **Intra-team Chat**: A chat window for communication within the local area network.
+- **Command Prompt**: Use `/` to invoke commands directly from the text area.
+- **AI Prompt Text Area**: A dedicated area for interacting with the AI.
 
 ## Installation
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/gauthamarcot/notebot
+    git clone https://github.com/gauthamarcot/codemind-ide
     ```
+
 2. Navigate to the project directory:
     ```sh
-    cd notebot
+    cd codemind-ide
     ```
-3. Install the required packages:
+
+3. Install frontend dependencies:
     ```sh
+    cd frontend
+    npm install
+    ```
+
+4. Install backend dependencies:
+    ```sh
+    cd ../backend
+    npm install
+    ```
+
+5. Install AI dependencies:
+    ```sh
+    cd ../ai
     pip install -r requirements.txt
     ```
 
 ## Usage
 
-1. Run the application:
+1. Build the React frontend:
     ```sh
-    python notebot.py
+    cd frontend
+    npm run build
     ```
-2. Interact with the AI by typing commands or queries in the text area.
-3. Use the specific question area for more interactive and targeted queries.
 
-## Commands
+2. Start the backend server:
+    ```sh
+    cd ../backend
+    node src/server.js
+    ```
 
-- **/sort**: Sorts the lines above the command.
-- **/reverse**: Reverses the lines above the command.
-- **/uppercase**: Converts the text above the command to uppercase.
-- **/count**: Counts the number of words in the text above the command.
+3. Start the AI service:
+    ```sh
+    cd ../ai
+    python app.py
+    ```
+
+4. Run the Electron application:
+    ```sh
+    npm start
+    ```
+
+## Packaging
+
+To create a `.deb` or `.dmg` package:
+
+1. Ensure all dependencies are installed and the application is built.
+2. Use Electron Builder to package the application:
+    ```sh
+    npx electron-builder
+    ```
 
 ## Example
 
 1. Open the application and type the following in the text area:
+    ```sh
+    console.log('Hello, World!');
     ```
-    /sort
-    line 3
-    line 1
-    line 2
-    ```
-2. The lines will be sorted:
-    ```
-    line 1
-    line 2
-    line 3
-    ```
+2. The Code Watcher will provide real-time feedback and suggestions.
 
 ## License
 
