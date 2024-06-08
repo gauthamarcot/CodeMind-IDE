@@ -11,6 +11,8 @@ CodeMind IDE is a powerful integrated development environment designed to enhanc
 - **Intra-team Chat**: A chat window for communication within the local area network.
 - **Command Prompt**: Use `/` to invoke commands directly from the text area.
 - **AI Prompt Text Area**: A dedicated area for interacting with the AI.
+- **To-Do List**: A small window for users to manage their tasks and to-dos, with optional AI suggestions that the user can accept or reject.
+
 
 ## Installation
 
