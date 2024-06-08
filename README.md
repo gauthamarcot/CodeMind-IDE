@@ -13,6 +13,11 @@ CodeMind IDE is a powerful integrated development environment designed to enhanc
 - **Command Prompt**: Use `/` to invoke commands directly from the text area.
 - **AI Prompt Text Area**: A dedicated area for interacting with the AI.
 - **To-Do List**: A small window for users to manage their tasks and to-dos, with optional AI suggestions that the user can accept or reject.
+- **AI Terminal**: An AI-enhanced terminal that opens within the IDE, supporting Linux and macOS.
+- **Git and SCM Support**: Integrated support for Git and other common source control management systems.
+- **Plugin Support**: Allows users to install and manage plugins to extend the functionality of the IDE.
+- **Auto-Linting**: Automatically lints code based on the programming language to ensure code quality and consistency.
+
 
 
 ## Installation
