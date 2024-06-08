@@ -1,6 +1,7 @@
 # CodeMind IDE
 
-![CodeMind_Logo](https://github.com/gauthamarcot/notebot/assets/43777597/a9121bbc-016e-4d0c-a1c3-95657fbd5f44)
+![codemind](https://github.com/gauthamarcot/CodeMind-IDE/assets/43777597/34a2a306-65ac-4f66-83e0-0789a88ff3f8)
+
 
 CodeMind IDE is a powerful integrated development environment designed to enhance your coding productivity. It features real-time code watching, project-specific AI suggestions, intra-team chat, and command invocation from the text area.
 
